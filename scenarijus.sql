@@ -36,7 +36,7 @@ INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [
 INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [Buto_Nr], [Asmuo_Id]) VALUES (2, N'Kaunas', N'Dainava', N'Tunelio g.', CAST(12 AS Decimal(18, 0)), CAST(2544 AS Decimal(18, 0)), 2);
 INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [Buto_Nr], [Asmuo_Id]) VALUES (4, N'Kaunas', NULL, N'Savanorių pr.', CAST(254 AS Decimal(18, 0)), CAST(47 AS Decimal(18, 0)), 3);
 INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [Buto_Nr], [Asmuo_Id]) VALUES (3, N'Kaunas', NULL, N'Gėlių g.', CAST(154 AS Decimal(18, 0)), CAST(247 AS Decimal(18, 0)), 4);
-INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [Buto_Nr], [Asmuo_Id]) VALUES (9, N'Klaipėda', NULL, NULL, NULL, NULL, 7);
+INSERT INTO [dbo].[Vietos] ([ID], [Miestas], [Gyvenviete], [Gatve], [Namo_Nr], [Buto_Nr]) VALUES (9, N'Klaipėda', NULL, NULL, NULL, NULL);
 
 INSERT INTO [dbo].[Dokumentai] ([ID], [Dok_Tipas], [Dok_Numeris], [Galioja_nuo], [Asmuo_Id]) VALUES (1, N'Pasas', N'LK-784512', N'2015-01-25 00:00:00', 1);
 INSERT INTO [dbo].[Dokumentai] ([ID], [Dok_Tipas], [Dok_Numeris], [Galioja_nuo], [Asmuo_Id]) VALUES (2, N'Kortelė', N'LK-741512', N'2015-01-25 00:00:00', 3);
